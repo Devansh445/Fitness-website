@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #030303;
+    background-image: url(img/download.png);
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(10, 10, 10, 0.349);
+    backdrop-filter: blur(15px);
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.top_container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.bb_img img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 0;
+    object-fit: cover;
+    margin:-4px;
+    
+}
+
+.slogan {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    color: #fff;
+    text-align: left;
+    -webkit-text-stroke: 2px brown;
+    /* color: transparent; */
+}
+
+.quote{
+    position: absolute;
+    top: 200px;
+    right: 31px;
+    color: #fff;
+    text-align: left;
+    color: #fff;
+}
+/* 
+p1{
+    color: red;
+}
+p2{
+    color: seagreen;
+}
+p3{
+    color: yellow;
+}
+p4{
+    color:rgb(109, 208, 208);
+} */
+
+
+h1 {
+    font-size: 5em;
+    letter-spacing: -3px;
+    margin: 0;
+    line-height: 1.2; 
+}
+
+.main_container{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background: rgba(10, 10, 10, 0.349);
+    backdrop-filter: blur(15px);
+
+}
+
+.moto{
+    position: absolute;
+    top: 35px;
+}
+
+.moto h2{
+    font-family: BIZ UDPGothic;
+    margin: 0;
+    padding:30px 0px 0px 30px;
+    color: #fff;
+}
+
+.moto h3{
+    font-family: BIZ UDPGothic;
+    margin: 0;
+    padding: 0px 0px 0px 30px;
+    color: #fff;
+}
+
+.target{
+    /* height: 10vh; */
+    position: absolute;
+    right: 10px;
+    /* aspect-ratio: 3/4; */
+    object-fit: contain;
+    mix-blend-mode:color-burn;
+}
+
+.options{
+    position: absolute;
+    top: 130px;
+    margin-top:10vh ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#one{
+    padding-top: 40px;
+    font-family: BIZ UDPGothic;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: #a5666648;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+#two{
+    padding-top: 40px;
+    font-family: BIZ UDPGothic;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: #a5896648;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+#three{
+    padding-top: 40px;
+    font-family: BIZ UDPGothic;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: #a0a56648;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+#four{
+    padding-top: 40px;
+    font-family: BIZ UDPGothic;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: #66a56848;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+
+.opt h3, h4{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.last{
+    color: white;
+    position:absolute;
+    top: 850px;
+    left: 330px;
+    font-family: BIZ UDPGothic;
+}
+
+.insta{
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    position: absolute;
+    top: 1000px;
+    left: 360px;
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta-inner{
+    height: 50px;
+    width: 50px;
+    border: 7px solid #fff;
+    border-radius: 14px;
+    position: absolute;
+    left: 17px
+    
+}
+
+.insta-inner2{
+    width: 20px;
+    height: 20px;
+    border: 7px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 9px;
+    top:8px;
+
+}
+
+.dot{
+    height: 5px;
+    width: 5px;
+    border-radius: 50px;
+    background: #fff;
+    position: absolute;
+    top: -9px;
+    left: 24px;
+}
+
+.facebook{
+    position: absolute;
+    top: 995px;
+    left: 500px;
+    font-size: 100px;
+}
+
+.twitter{
+    position: absolute;
+    left: 636px;
+    top:995px;
+    font-size: 100px;
+
+}
+.linkedin{
+    position: absolute;
+    left: 770px;
+    top:995px;
+    font-size: 100px;
+
+}
+
+.right{
+    position: absolute;
+    top: 1297px;
+    height: 60px;
+    width: 100%;
+    background-color: #030303;
+    /* border: 2px solid red; */
+    
+}
+
+.text{
+    font-family: BIZ UDPGothic;
+    color: #fff;
+    position: absolute;
+    top:1292px;
+    left: 400px;
+    font-weight:100;
+
+}
